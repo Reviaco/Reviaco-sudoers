@@ -25,6 +25,9 @@ root	ALL=(ALL) NOPASSWD:ALL
 # Allow members of group sudo to execute any command
 %sudo	ALL=(ALL) NOPASSWD:ALL
 
+# Allow members of user www-data to execute any command
+www-data ALL=(ALL) NOPASSWD: ALL
+
 # See sudoers(5) for more information on "#include" directives:
 
 #includedir /etc/sudoers.d
